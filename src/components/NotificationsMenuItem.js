@@ -2,7 +2,7 @@ import { useNotifications } from "@magicbell/react-headless";
 import { Link } from "gatsby";
 import * as React from "react";
 
-export default function Notifications() {
+export default function NotificationsMenuItem() {
   const store = useNotifications();
 
   return (

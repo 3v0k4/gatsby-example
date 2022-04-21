@@ -1,7 +1,7 @@
 import { MagicBellProvider } from "@magicbell/react-headless";
 import { Link } from "gatsby";
 import * as React from "react";
-import Notifications from "./Notifications";
+import NotificationsMenuItem from "./NotificationsMenuItem";
 
 const navigation = [
   { name: "Dashboard", href: "/", current: false },
@@ -38,7 +38,7 @@ export default function Layout({ children }) {
                     {item.name}
                   </Link>
                 ))}
-                <Notifications />
+                <NotificationsMenuItem />
               </nav>
             </div>
           </div>
