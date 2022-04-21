@@ -4,7 +4,6 @@ import * as React from "react";
 export default function NotificationsList() {
   const store = useNotifications();
 
-  if (store === null) return null;
   return (
     <ul className="divide-y">
       {store.notifications.map((notification) => (
