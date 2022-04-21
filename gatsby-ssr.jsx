@@ -1,13 +1,12 @@
-const React = require("react");
-const Layout = require("./src/components/Layout");
+import * as React from "react";
+import Layout from "./src/components/Layout";
 
-exports.onRenderBody = ({ setBodyAttributes }, pluginOptions) => {
+export const onRenderBody = ({ setBodyAttributes }, pluginOptions) => {
   setBodyAttributes({
     className: "h-full",
   });
 };
 
-exports.wrapPageElement = ({ element, props }) => {
-  if (typeof element === "object") return element;
-  return <Layout {...props}>{element}</Layout>;
-};
+export const wrapPageElement = ({ element, props }) => (
+  <Layout {...props}>{element}</Layout>
+);
