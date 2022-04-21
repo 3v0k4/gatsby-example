@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `My Gatsby Site`,
+    title: `MagicBell Gatsby Example`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: ["gatsby-plugin-postcss"],
+};

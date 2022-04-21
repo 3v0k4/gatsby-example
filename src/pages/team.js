@@ -1,10 +1,10 @@
 import * as React from "react";
 
-export default function IndexPage() {
+export default function TeamPage() {
   return (
     <>
       <div className="px-4 sm:px-6 md:px-0">
-        <h1 className="text-2xl font-semibold text-gray-900">Dashboard</h1>
+        <h1 className="text-2xl font-semibold text-gray-900">Team</h1>
       </div>
       <div className="px-4 sm:px-6 md:px-0">
         <div className="py-4">
