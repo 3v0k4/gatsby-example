@@ -1,12 +1,3 @@
-# MagicBell Gatsby example
+# Gatsby Example
 
-This repo shows how to use the `@magicbell/react-headless` package to render notifications in a Gatsby application.
-
-## Quick start
-
-Navigate into the site’s directory and start it up.
-
-```shell
-cd magicbell-gatsby-example/
-npm run develop
-```
+Moved to [magicbell-io/public](https://github.com/magicbell-io/public/examples/gatsby-example).
